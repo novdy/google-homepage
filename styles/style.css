@@ -1,0 +1,141 @@
+body {
+    background: white;
+    color: #222;
+    margin: 0 0 0 0;
+}
+
+body, td, a, p, .h {
+    font-family: arial,sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.navbar {
+    font-size: 13px;
+}
+
+.about {
+    position: absolute;
+    margin: 23px 0 0 10px;
+}
+
+.about a {
+    display: inline-block;
+    padding-left: 15px;
+    color: #000;
+    opacity: 0.75;
+}
+
+.account {
+    position: relative;
+    float: right;
+    order: 1;
+    text-align: right;
+    margin: 17px 15px 15px 15px;
+    align-content: center;
+    justify-content: flex-end;
+}
+
+.account a {
+    display: inline-block;
+    padding-right: 14px;
+    color: #000;
+    opacity: 0.75;
+}
+
+.account img {
+    vertical-align: middle;
+    padding: 0 0 3px 5px;
+}
+
+#profile {
+    position: relative;
+    bottom: 2px;
+    padding: 0 0 0 0;
+    border-radius: 50%;
+}
+
+.search {
+    position: absolute;
+    width: 100%;
+}
+
+.search img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+#bar {
+    display: block;
+    position: relative;
+    font-family: Arial;
+    font-size: 22px;
+    line-height: 34px;
+    height: 34px;
+    width: 35%;
+    box-shadow: 1px 1px #888;
+    margin-left: auto;
+    margin-right: auto; 
+    bottom: 75px;
+}
+
+#bar:hover {
+    display: block;
+    position: relative;
+    font-family: Arial;
+    font-size: 22px;
+    line-height: 34px;
+    height: 34px;
+    width: 35%;
+    box-shadow: 2px 2px #888;
+    margin-left: auto;
+    margin-right: auto; 
+    bottom: 75px;
+}
+
+.buttonholder {
+    text-align: center;
+}
+
+.googlebutton {
+    position: relative;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    cursor: default;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    min-width: 54px;
+    min-height: 34px;
+    padding: 0 16px;
+    text-align: center;
+    bottom: 50px;
+}
+
+.googlebutton:hover {
+    position: relative;
+    background-color: #f2f2f2;
+    border: 1px solid #333;
+    border-radius: 2px;
+    color: #757575;
+    cursor: default;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    min-width: 54px;
+    min-height: 34px;
+    padding: 0 16px;
+    text-align: center;
+    bottom: 50px;
+}
